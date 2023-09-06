@@ -15,6 +15,7 @@ public class BDPrueba {
         try {
             DriverManager.getConnection(URL, USUARIO, PASS);
             JOptionPane.showMessageDialog(null, "Conexión realizada con exito!: ");
+            // muy bien hecho!!
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, "no se pudo mostrar los registros, error: " + e.toString());
 
